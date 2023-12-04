@@ -25,3 +25,6 @@ If I were to keep adding functionality to this kind of system, I would probably 
 that returns a list of adjacent squares to objects. Then I could iterate over them to find
 if we are touching this or that. By the time I realized I might need something like that, I was too
 far into the task to bother with it.
+
+### Day 4: Scratchcards
+Pretty straight forward problem today, not much to comment on.
