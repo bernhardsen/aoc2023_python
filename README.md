@@ -28,3 +28,15 @@ far into the task to bother with it.
 
 ### Day 4: Scratchcards
 Pretty straight forward problem today, not much to comment on.
+
+### Day 5: Scratchcards
+This one was a bit more difficult, and just terrible to work with in Python.
+Idk, but I feel the code I wrote was just a mess and unreadable, and I was confusing myself.
+This despite me just porting over the solution that I first did in C#.
+Part 1 works, I might come back and fix Part 2 later.
+
+### Day 6: Wait For It
+This one I'm pretty happy with. It was pretty simple, and it's a direct
+port of the Rust implementation. Maybe it's because of how simple it is,
+but I feel it reads well, and is elegant enough.
+
