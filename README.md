@@ -40,3 +40,8 @@ This one I'm pretty happy with. It was pretty simple, and it's a direct
 port of the Rust implementation. Maybe it's because of how simple it is,
 but I feel it reads well, and is elegant enough.
 
+### Day 7: Camel Cards
+Fun problem. One small change I made from my Rust implementation is that
+I stopped passing if we wanted to use J as joker or not as a parameter,
+and instead just replaced `J` with `?`. That way I could have one
+logic for both parts, just one input with jacks, and one with jokers.
