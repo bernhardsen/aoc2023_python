@@ -45,3 +45,26 @@ Fun problem. One small change I made from my Rust implementation is that
 I stopped passing if we wanted to use J as joker or not as a parameter,
 and instead just replaced `J` with `?`. That way I could have one
 logic for both parts, just one input with jacks, and one with jokers.
+
+### Day 8: Haunted Wasteland
+Of all the implementations I did, I like this one the best.
+I think it's mostly because of how quick and compact the parsing was.
+I did not go for any graph or anything this time, just a dictionary
+holding all the nodes. Turned out fine, and actually ran faster than I expected.
+
+### Day 9: Mirage Maintenance
+I like all the implementations I did of this problem. There is something
+satisfying about breaking a problem like this into 3-6 line functions,
+where each has a very specific, well-defined task. When we have code like this,
+even if some of the functions were to be very complex and a bit difficult
+to understand, the fact that they are isolated, very specific, and so short,
+those things makes it easy to reason about the whole code without understanding each part.
+
+### Day 10: Pipe Maze
+Fun problem. Pretty easy to implement.
+This is the first problem where I did the Python implementation first.
+No special reason for this, I just wanted to mix things up.
+Only real problem I had was I manually entered the result of part 2, and
+accidentally flipped two of the digits. Debugged for a while before I
+realized I had the correct solution all along :D
+Code ended up a bit long, and somewhat messy, but it read ok I guess.

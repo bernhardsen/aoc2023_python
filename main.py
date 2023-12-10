@@ -2,12 +2,15 @@
 import sys
 
 from day1 import day1
+from day10 import day10
 from day2 import day2
 from day3 import day3
 from day4 import day4
 from day5 import day5
 from day6 import day6
 from day7 import day7
+from day8 import day8
+from day9 import day9
 
 print('Advent of Code 2023!')
 if len(sys.argv) == 2:
@@ -26,6 +29,12 @@ if len(sys.argv) == 2:
             day6()
         case "7":
             day7()
+        case "8":
+            day8()
+        case "9":
+            day9()
+        case "10":
+            day10()
         case _:
             print(f"Day {sys.argv[1]} not implemented yet")
 else:
